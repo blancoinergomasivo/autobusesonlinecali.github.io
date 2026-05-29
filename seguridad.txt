@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+
+<style>
+
+body{
+    background:width;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:80%;
+    text-align:center;
+}
+
+h1{
+    color:#293b8d;
+    font-size:70px;
+}
+
+video{
+    width:100%;
+    border-radius:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<video controls autoplay muted loop>
+    <source src="seguridad.mp4" type="video/mp4">
+</video>
+
+</div>
+
+</body>
+</html>
